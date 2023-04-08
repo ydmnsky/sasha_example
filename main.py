@@ -1,7 +1,8 @@
 import logging
+from time import sleep
+
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
-import pyparsing
 
 # Enable logging
 logging.basicConfig(level=logging.INFO)
@@ -11,17 +12,13 @@ TOKEN = "6156298567:AAHMQL3aYwt1BrSimGQd91R2Uds7cAjzeQg"
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
+
+def do_nothing():
+    sleep(1)
 #123
 #123
 #123
-#123
-#123
-#123
-#123
-#123
-#123
-#123
-#123
+
 #123
 #123
 # Define the handler for the /start command
